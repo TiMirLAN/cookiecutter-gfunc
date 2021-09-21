@@ -1,0 +1,7 @@
+{
+  "full_name": "template-gsheet-report",
+  "username": "Pg Dev",
+  "email": "pg.dev@playgendary.com",
+  "project_name": "{{ cookiecutter.full_name.lower().replace(' ', '-').replace('_', '-') }}",
+  "project_slug": "{{ cookiecutter.project_name.replace('-', '_') }}"
+}
