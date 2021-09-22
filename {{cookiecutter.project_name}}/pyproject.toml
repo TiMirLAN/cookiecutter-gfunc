@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "{{ cookiecutter.project_name }}"
+version = "0.1.0"
+description = ""
+authors = ["{{ cookiecutter.username }} <{{ cookiecutter.email }}>"]
+readme = "README.md"
+
+[tool.poetry.urls]
+"Source" = ""
+"Documentation" = ""
+
+[tool.poetry.dependencies]
+python = "^3.9"
+functions-framework = "^2.2.1"
+pydantic = "^1.8.2"
+
+[tool.poetry.dev-dependencies]
+pre-commit = "^2.15.0"
+pytest = "^6.2.5"
+isort = "^5.9.3"
+black = "^21.9b0"
+flake8 = "^3.9.2"
+mypy = "^0.910"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
